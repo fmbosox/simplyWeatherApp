@@ -12,6 +12,9 @@
 		7D63EB1F1FABDADD00E68AF1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D63EB1D1FABDADD00E68AF1 /* Main.storyboard */; };
 		7D63EB211FABDADD00E68AF1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D63EB201FABDADD00E68AF1 /* Assets.xcassets */; };
 		7D63EB241FABDADD00E68AF1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D63EB221FABDADD00E68AF1 /* LaunchScreen.storyboard */; };
+		7D63EB2C1FABE53D00E68AF1 /* CurrentWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D63EB2B1FABE53D00E68AF1 /* CurrentWeather.swift */; };
+		7D63EB2E1FABE8C600E68AF1 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D63EB2D1FABE8C600E68AF1 /* Constants.swift */; };
+		7D63EB301FABECA600E68AF1 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D63EB2F1FABECA600E68AF1 /* Location.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		7D63EB201FABDADD00E68AF1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7D63EB231FABDADD00E68AF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7D63EB251FABDADD00E68AF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7D63EB2B1FABE53D00E68AF1 /* CurrentWeather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentWeather.swift; sourceTree = "<group>"; };
+		7D63EB2D1FABE8C600E68AF1 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		7D63EB2F1FABECA600E68AF1 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +63,9 @@
 				7D63EB191FABDADD00E68AF1 /* AppDelegate.swift */,
 				7D63EB1B1FABDADD00E68AF1 /* ViewController.swift */,
 				7D63EB1D1FABDADD00E68AF1 /* Main.storyboard */,
+				7D63EB2B1FABE53D00E68AF1 /* CurrentWeather.swift */,
+				7D63EB2F1FABECA600E68AF1 /* Location.swift */,
+				7D63EB2D1FABE8C600E68AF1 /* Constants.swift */,
 				7D63EB201FABDADD00E68AF1 /* Assets.xcassets */,
 				7D63EB221FABDADD00E68AF1 /* LaunchScreen.storyboard */,
 				7D63EB251FABDADD00E68AF1 /* Info.plist */,
@@ -137,7 +146,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				7D63EB1C1FABDADD00E68AF1 /* ViewController.swift in Sources */,
+				7D63EB2C1FABE53D00E68AF1 /* CurrentWeather.swift in Sources */,
+				7D63EB301FABECA600E68AF1 /* Location.swift in Sources */,
 				7D63EB1A1FABDADD00E68AF1 /* AppDelegate.swift in Sources */,
+				7D63EB2E1FABE8C600E68AF1 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
